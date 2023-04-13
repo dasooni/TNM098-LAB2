@@ -1,0 +1,8 @@
+
+
+%plot(data.GazePointX_px_, data.GazePointY_px_, '-x');
+%hold on
+%scatter(data.GazePointX_px_, data.GazePointY_px_,data.GazeEventDuration_mS_ /  10,data.GazeEventDuration_mS_,'filled');
+plot(data.GazePointX_px_, data.GazePointY_px_, '-x', );
+hold on
+scatter(data.GazePointX_px_, data.GazePointY_px_, data.FixationIndex/10, data.FixationIndex, 'filled');
